@@ -1,11 +1,11 @@
 Pour configurer son nom:
-git config --global user.name "John Doe"
+git config --global user.name "Machin Bidule"
 
 Pour configurer son mail:
-git config --global user.email bouquet.vincent704@orange.fr
+git config --global user.email machin.bidule@orange.fr
 
 Pour configurer l'éditeur de texte (ex: Sublime text)
-git config --global core.editor "'c:/program files/sublime text 3/sublimetext.exe' -w"
+git config --global core.editor "'c:/program files/sublime text 3/sublime_text.exe' -w"
 
 Cloner un dépôt existant:
 git clone https://github.com/VincentBouquet/Formation.git
@@ -16,6 +16,20 @@ git status
 Pour ajouter ce contenu pour la prochaine validation:
 git add bidule.txt
 
-
-Pour valider les modifications
+Pour valider les modifications:
 git commit
+
+Pour envoyer les modifications sur le repo distant (ex:Github):
+git push
+
+Pour créer une nouvelle branche:
+git branch nom_de_la_nouvelle_branche
+
+Pour basculer sur une branche:
+git checkout nom_de_la_branche
+
+Pour fusionner deux branches:
+git merge nom_de_la_branche_avec_laquelle_on_veut_fusionner_la_branche_en_cour
+
+Pour fusionner deux branches, mais en ajoutant les changements dont l'une a subi pendant les changement de l'autre :
+git rebase nom_de_la_branche_avec_laquelle_on_veut_fusionner_la_branche_en_cour
