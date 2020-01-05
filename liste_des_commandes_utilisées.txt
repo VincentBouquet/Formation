@@ -1,3 +1,21 @@
-git add bidule.txt
+Pour configurer son nom:
+git config --global user.name "John Doe"
+
+Pour configurer son mail:
+git config --global user.email bouquet.vincent704@orange.fr
+
+Pour configurer l'éditeur de texte (ex: Sublime text)
+git config --global core.editor "'c:/program files/sublime text 3/sublimetext.exe' -w"
+
+Cloner un dépôt existant:
+git clone https://github.com/VincentBouquet/Formation.git
+
+Vérifier l’état des fichiers:
 git status
+
+Pour ajouter ce contenu pour la prochaine validation:
+git add bidule.txt
+
+
+Pour valider les modifications
 git commit
