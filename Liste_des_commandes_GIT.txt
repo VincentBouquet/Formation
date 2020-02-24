@@ -22,6 +22,9 @@ git commit
 Pour envoyer les modifications sur le repo distant (ex:Github):
 git push
 
+Pour recevoir les modifications du repo distant (ex:Github):
+git pull
+
 Pour créer une nouvelle branche:
 git branch nom_de_la_nouvelle_branche
 
