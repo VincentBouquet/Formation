@@ -1,37 +1,43 @@
-Pour configurer son nom:
+Pour configurer son nom :
 git config --global user.name "Machin Bidule"
 
-Pour configurer son mail:
+Pour configurer son mail :
 git config --global user.email machin.bidule@orange.fr
 
-Pour configurer l'éditeur de texte (ex: Sublime text)
+Pour configurer l'éditeur de texte (ex: Sublime text) :
 git config --global core.editor "'c:/program files/sublime text 3/sublime_text.exe' -w"
 
-Cloner un dépôt existant:
+Cloner un dépôt existant :
 git clone https://github.com/VincentBouquet/Formation.git
 
-Vérifier l’état des fichiers:
+Vérifier l’état des fichiers :
 git status
 
-Pour ajouter ce contenu pour la prochaine validation:
+Pour ajouter ce contenu pour la prochaine validation :
 git add bidule.txt
 
-Pour valider les modifications:
+Pour valider les modifications :
 git commit
 
-Pour envoyer les modifications sur le repo distant (ex:Github):
+Pour envoyer les modifications sur le repo distant (ex:Github) :
 git push
 
-Pour recevoir les modifications du repo distant (ex:Github):
+Pour recevoir les modifications du repo distant (ex:Github) :
 git pull
 
-Pour créer une nouvelle branche:
+
+Les branches :
+
+Pour créer une nouvelle branche :
 git branch nom_de_la_nouvelle_branche
 
-Pour basculer sur une branche:
+Pour connaitre toutes les branche éxistante:
+git branch
+
+Pour basculer sur une branche :
 git checkout nom_de_la_branche
 
-Pour fusionner deux branches:
+Pour fusionner deux branches :
 git merge nom_de_la_branche_avec_laquelle_on_veut_fusionner_la_branche_en_cour
 
 Pour fusionner deux branches, mais en ajoutant les changements dont l'une a subi pendant les changement de l'autre :
